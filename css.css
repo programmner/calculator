@@ -1,0 +1,39 @@
+*{
+	padding:0px;
+	margin:0px; 
+}
+body{
+	width: 100vw;
+	height:100vh;
+	background-image:linear-gradient(to right bottom,red,blue);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main{
+	width:30vw;
+    padding: 5px 15px;
+    padding-bottom: 14px;
+	background-color:cyan;
+}
+h1{margin-bottom:5px;
+}
+input{
+    padding:5px;
+    font-size:20px;
+	width: 23vw;
+
+}
+button{
+	padding:5px;
+	font-weight:bold;
+	cursor: pointer;
+	border-radius:5px;
+	margin-top: 5px;
+	background-color:yellow;
+	transition: all 1s;
+}
+button:hover{
+	background-color:orange;
+	color: blue;
+}
